@@ -1,0 +1,12 @@
+(executable
+ (name lotto)
+ (public_name yojson_example)
+ (libraries 
+    core
+    async
+    sexp
+    yojson
+    ppx_deriving_yojson
+    lotto_lib
+  )
+ (preprocess (pps ppx_jane ppx_deriving_yojson)))
