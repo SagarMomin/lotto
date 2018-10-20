@@ -7,6 +7,5 @@
     sexp
     yojson
     ppx_deriving_yojson
-    lotto_lib
   )
  (preprocess (pps ppx_jane ppx_deriving_yojson)))
