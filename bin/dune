@@ -4,7 +4,6 @@
  (libraries 
     core
     async
-    sexp
     yojson
     ppx_deriving_yojson
   )
