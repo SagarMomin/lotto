@@ -141,3 +141,5 @@ let command =
     ~summary:"Check to see how much money was won in the lotery"
     [ "megamillions", lotto ~lottery:Megamillions; "powerball", lotto ~lottery:Powerball ]
 ;;
+
+let () = Command.run command
